@@ -124,20 +124,4 @@ while True:
 
 # COMMAND ----------
 
-# MAGIC %scala
-# MAGIC //Define dataframe
-# MAGIC val rates = 
-# MAGIC     spark
-# MAGIC     .readStream
-# MAGIC     .format("data")
-# MAGIC     .load
-
-# COMMAND ----------
-
-import datetime
-print(datetime.datetime.strptime("21-Mar-14", "%d-%b-%y").strftime("%d-%m-%y"))
-
-
-# COMMAND ----------
-
 
